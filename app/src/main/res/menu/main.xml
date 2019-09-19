@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_kalendar" android:orderInCategory="100"
+        android:title="@string/action_calendar" app:showAsAction="never" android:onClick="openCalendar" />
+
+    <item android:id="@+id/action_pomodoro" android:orderInCategory="100"
+        android:title="@string/action_pomodoro" app:showAsAction="never" android:onClick="pomodoro"/>
+
+    <!--
+    <item android:id="@+id/action_notifications" android:orderInCategory="100"
+        android:title="@string/action_notifications" app:showAsAction="never" android:onClick="notificationsDialog" />
+-->
+
+    <item
+        android:id="@+id/action_notifications"
+        android:checkable="true"
+        android:checked="true"
+        android:onClick="manageNotifications"
+        android:orderInCategory="100"
+        android:title="@string/action_notifications"
+        app:actionViewClass="android.widget.CheckBox"
+        app:showAsAction="never">
+    </item>
+
+
+
+    <item android:id="@+id/action_deleteCompleted" android:orderInCategory="100"
+        android:title="@string/action_deleteCompleted" app:showAsAction="never" android:onClick="deleteAllDone"/>
+
+
+    <item android:id="@+id/action_category" android:orderInCategory="100"
+        android:title="@string/action_category" app:showAsAction="never"
+        android:onClick="updateCategoryClick"/>
+
+    <item android:id="@+id/PDF" android:orderInCategory="100"
+        android:title="Export to PDF" app:showAsAction="never"
+        android:onClick="exportPDF"/>
+    
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#17215e</color>
+    <color name="colorAccent">#3f51b5</color>
+    <color name="greenPomodoro">#199E45</color> <!--#ff669900-->
+    <color name="pinkPrimary">#d25b84</color>
+    <color name="pinkPinkPrimaryDark">#a72552</color>
+    <color name="pinkAccent">#7f3e55</color>
+    <color name="accent_material_dark">#546595</color>
+    <color name="accent_material_light">#d62c4d</color>
+    <color name="primary_material_light">#d62c4d</color>
+    <color name="primary_dark_material_light">#a81f39</color>
+
+
+    <!-- DEF. ZA KALENDAR -->
+    <color name="grey">#a0a0a0</color>
+    <color name="calendar_number">#424A56</color>
+    <color name="pink">#FF4081</color>
+    <color name="green">#388E3C</color>
+</resources>

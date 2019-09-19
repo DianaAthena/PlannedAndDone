@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Planned&amp;Done</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- u optionsMenu-->
+    <string name="action_pomodoro">Pomodoro</string>
+    <string name="action_calendar">Calendar</string>
+    <string name="action_notifications">Notifications</string>
+    <string name="action_style">Style</string>
+    <string name="action_deleteCompleted">Delete completed tasks</string>
+    <string name="action_category">Update category</string>
+    <string name="category_of_task">Category of task:</string>
+    <string name="priority_of_task">Priority of task:</string>
+    <string name="i_plan_to_finish_task_by">I plan to finish task by:</string>
+    <string name="deadline_for_task_is">Deadline for task is:</string>
+    <string name="optional">optional:</string>
+    <string name="my_task_is">My task is:</string>
+    <string name="mytasks">My tasks</string>
+    <string name="planned">Planned</string>
+    <string name="done">Done</string>
+    <string name="addcategory">Add category</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="completed_tasks_deleted_success">Completed tasks have been deleted successfully!</string>
+    <string name="completed_tasks_deleted_not_success">Sadly you do not have any completed taskss to delete.</string>
+    <string name="Pomodoro">Pomodoro</string>
+    <string name="short_break">Short break</string>
+    <string name="long_break">Long break</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="pause">Pause</string>
+    <string name="youWon">You won:</string>
+    <string name="pdf">PDF</string>
+
+
+    <!-- DEF ZA KALENDAR -->
+    <string name="monday">M</string>
+    <string name="tuesday">T</string>
+    <string name="wednesday">W</string>
+    <string name="thursday">T</string>
+    <string name="friday">F</string>
+    <string name="saturday">S</string>
+    <string name="sunday">S</string>
+</resources>
