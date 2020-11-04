@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.pnd.future_bosses.plannedanddone.MainActivity">
+    tools:context="com.pnd.future_bosses.plannedanddone.MainActivity"
+    tools:ignore="ExtraText">
 
     <android.support.design.widget.AppBarLayout android:layout_width="match_parent"
         android:layout_height="wrap_content" android:theme="@style/AppTheme.AppBarOverlay">
@@ -21,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        android:tint="@android:color/white"
+        android:tint="@android:color/holo_green_light" />
         app:srcCompat="@android:drawable/ic_input_add" />
 
     <include layout="@layout/content_main" />
